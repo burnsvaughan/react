@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  background: white;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 50px;
+  overflow: auto;
+  height:100%;
+}
+
+header{
+  ul{
+    li {
+      display: inline-block;
+      padding:20px;
+    }
+  }
+}
+
+.chips{
+  background:blue!important;
+  overflow: auto;
+  height: 100%;
+  padding: 25px;
+}
+
+.danger-red{
+  background: red !important;
+}
+
+.user-info {
+  float: left;
+  width: 50%;
+  color:white;
+}
+
+h3 {
+  font-size:30px;
+}
+
+.LogoImgComp{
+  float:left;
+  width:50%;
+
+  h3{
+    font: 30px;
+    color: white;
+  }
+
+  img{
+  width:400px;
+  }
+}
